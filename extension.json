@@ -1,0 +1,54 @@
+{
+	"name": "NASA_EVA_Gamification",
+	"version": "2.0.0",
+	"author": [
+		"UMUC SWEN670 Summer 2018"
+	],
+	"url": "https://github.com/SWEN670NASAEVA2/NASA_EVA_Gamification",
+	"descriptionmsg": "gamification-desc",
+	"license-name": "MIT",
+	"type": "other",
+	"AutoloadClasses": {
+		"NASA_EVA_GamificationHooks": "NASA_EVA_Gamification.hooks.php",
+		"SpecialUserGamificationProfile": "specials/SpecialUserGamificationProfile.php",
+		"LeaderBoard":"includes/LeaderBoard.php",
+		"Point":"includes/Point.php"
+	},
+	"config": {
+			},
+	"ExtensionMessagesFiles": {
+		"NASA_EVA_GamificationAlias": "NASA_EVA_Gamification.i18n.alias.php"
+	},
+	"Hooks": {
+              
+		"LoadExtensionSchemaUpdates": [
+			"NASA_EVA_GamificationHooks::onLoadExtensionSchemaUpdates"
+		]
+	},
+	"MessagesDirs": {
+		"NASA_EVA_Gamification": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.gamification.foo": {
+			"scripts": [
+				"modules/ext.gamification.js",
+				"modules/ext.gamification.foo.js"
+			],
+			"styles": [
+				"modules/ext.gamification.foo.css"
+			],
+			"messages": [],
+			"dependencies": []
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "NASA_EVA_Gamification"
+	},
+	"SpecialPages": {
+		"UserGamificationProfile": "SpecialUserGamificationProfile"
+	},
+	"manifest_version": 1
+}
