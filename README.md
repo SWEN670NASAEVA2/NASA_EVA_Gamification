@@ -26,9 +26,9 @@ MediaWiki extension for gamification of wiki tasks, based on the requirements of
 		$wgLeaderBoardPointScale=100;
 
 4. Replace the default logo with the NasaWiki gamification logo: open 'LocalSettings.php' and search for $wgLogo.  Replace everthing after the '=' sign with the following:
-		"$wgResourceBasePa/extensions/NASA_EVA_Gamification/images/nasa-wiki-logo.png";
+		"$wgResourceBasePath/extensions/NASA_EVA_Gamification/images/nasa-wiki-logo.png";
 	The line should look like:
-		$wgLogo = "$wgResourceBasePa/extensions/NASA_EVA_Gamification/images/nasa-wiki-logo.png";
+		$wgLogo = "$wgResourceBasePath/extensions/NASA_EVA_Gamification/images/nasa-wiki-logo.png";
 	Save the changes.
 
 5. From a shell prompt,
