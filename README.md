@@ -25,15 +25,19 @@ MediaWiki extension for gamification of wiki tasks, based on the requirements of
 		$wgPoints = array(0=>50, 1=>100);
 		$wgLeaderBoardPointScale=100;
 
+4. Replace the default logo with the NasaWiki gamification logo: open 'LocalSettings.php' and search for $wgLogo.  Replace everthing after the '=' sign with the following:
+		"$wgResourceBasePa/extensions/NASA_EVA_Gamification/images/nasa-wiki-logo.png";
+	The line should look like:
+		$wgLogo = "$wgResourceBasePa/extensions/NASA_EVA_Gamification/images/nasa-wiki-logo.png";
+	Save the changes.
 
-
-4. From a shell prompt,
+5. From a shell prompt,
 	a) Navigate to the folder where you have saved the "MediaWiki"
 	b) Run `php maintenance/update.php`
 
 	## Note: if you get a security error, run the shell prompt as an administrator.
 
-5. Move and replace the following files “From” the specified folder “To” the specified folder.
+6. Move and replace the following files “From” the specified folder “To” the specified folder.
 	a)
 		File: WikiPage.php
 		From folder: `mediawiki/extensions/NASA_EVA_Gamification/`
@@ -44,16 +48,16 @@ MediaWiki extension for gamification of wiki tasks, based on the requirements of
 		From folder: `mediawiki/extensions/NASA_EVA_Gamification/`
 		To folder:   `mediawiki/includes/`
 
-6. From a shell prompt,
+7. From a shell prompt,
 	a) Navigate to the folder where you have saved the `MediaWiki`
 	b) Run `runphp.cmd`
 
-7. Open a web browser and access you local instance: `http:localhost:8080`
+8. Open a web browser and access you local instance: `http:localhost:8080`
 	a) From the left hand-side navigation select `Special pages`
   b) Scroll down (almost until the end of the page) and verify that under the `Other Special pages` section the "User Gamification Profile" extension has been successfully installed.
 	c) Click on `User Gamification Profile` to confirm.
 
-7. Done.
+9. Done.
 
 ## Note
 This extension was designed for MediaWiki 1.27 or later
