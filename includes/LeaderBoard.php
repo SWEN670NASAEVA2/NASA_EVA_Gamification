@@ -119,7 +119,7 @@ class LeaderBoard implements IDBAccessObject {
                     from revision r right join user u on u.user_id=r.rev_user
                     group by r.rev_user 
                     having points between $min and $max
-                    order by points desc";
+                    order by points desc, username";
             $myres=$mydbr->query($query);
             $position = 0;
             while ($myrow=$mydbr->fetchRow($myres)){
