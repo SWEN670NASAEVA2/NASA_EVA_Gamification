@@ -1,7 +1,7 @@
 # NASA_EVA_Gamification - PHASE 2
 
 MediaWiki extension for gamification of wiki tasks, based on the requirements of NASA's Extravehicular Activities team.
-### This guide was created as a continuation of [Phase 1](https://github.com/SWEN670NASAEVA/NASA_EVA_Gamification)
+### This guide is a continuation of [Phase 1](https://github.com/SWEN670NASAEVA/NASA_EVA_Gamification)
 Phase 1 was prepared by:  Michael Salgo, Victoria Guadagno, Okechukwu Ogudebe, Jacqueline Macfadyen, Kevin Fortier, and Montrell Nuble
 
 
