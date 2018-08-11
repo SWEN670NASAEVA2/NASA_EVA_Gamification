@@ -69,14 +69,20 @@ Phase 1 was prepared by:  Michael Salgo, Victoria Guadagno, Okechukwu Ogudebe, J
 		To folder:   `mediawiki/includes/`
 
 8. From a shell prompt,
+
 	a) Navigate to the folder where you have saved the `MediaWiki`
+	
 	b) Run `runphp.cmd`
+	
 
 9. Open a web browser and access you local instance: `http:localhost:8080`
 
 	a) From the left hand-side navigation select `Special pages`
+	
 	b) Scroll down (almost until the end of the page) and verify that under the `Other Special pages` section the "User Gamification Profile" extension has been successfully installed.
+	
 	c) Click on `User Gamification Profile` to confirm.
+	
 
 10. Done.
 
