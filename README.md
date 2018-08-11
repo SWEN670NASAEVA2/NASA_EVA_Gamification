@@ -35,7 +35,7 @@ MediaWiki extension for gamification of wiki tasks, based on the requirements of
 	a) Navigate to the folder where you have saved the "MediaWiki"
 	b) Run `php maintenance/update.php`
 
-	## Note: if you get a security error, run the shell prompt as an administrator.
+	### Note: if you get a security error, run the shell prompt as an administrator.
 
 6. Move and replace the following files “From” the specified folder “To” the specified folder.
 	a)
