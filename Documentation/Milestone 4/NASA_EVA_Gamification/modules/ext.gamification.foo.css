@@ -1,0 +1,5 @@
+
+/* to distinguish current user from others in the leaderboard */
+.this_user {
+   background-color: rgba(74,133,255,.6);
+}
