@@ -42,13 +42,7 @@ Phase 1 was prepared by:  Michael Salgo, Victoria Guadagno, Okechukwu Ogudebe, J
 	
 	#### Note: $wgShowDebug = true; is for debugging purposes; so, it is recommended to have it set to “true” in a development 	environment and set to “false” in a production environment.
 
-5. Replace the default logo with the NasaWiki gamification logo: open 'LocalSettings.php' and search for $wgLogo.  Replace everthing after the '=' sign with the following:
-		"$wgResourceBasePath/extensions/NASA_EVA_Gamification/images/nasa-wiki-logo.png";
-	The line should look like:
-		$wgLogo = "$wgResourceBasePath/extensions/NASA_EVA_Gamification/images/nasa-wiki-logo.png";
-	Save the changes.
-
-6. From a shell prompt,
+5. From a shell prompt,
 
 	a) Navigate to the folder where you have saved the "MediaWiki"
 	
@@ -56,7 +50,7 @@ Phase 1 was prepared by:  Michael Salgo, Victoria Guadagno, Okechukwu Ogudebe, J
 
 	### Note: if you get a security error, run the shell prompt as an administrator.
 
-7. Move and replace the following files “From” the specified folder “To” the specified folder.
+6. Move and replace the following files “From” the specified folder “To” the specified folder.
 
 	a)
 		File: WikiPage.php
@@ -68,14 +62,14 @@ Phase 1 was prepared by:  Michael Salgo, Victoria Guadagno, Okechukwu Ogudebe, J
 		From folder: `mediawiki/extensions/NASA_EVA_Gamification/`
 		To folder:   `mediawiki/includes/`
 
-8. From a shell prompt,
+7. From a shell prompt,
 
 	a) Navigate to the folder where you have saved the `MediaWiki`
 	
 	b) Run `runphp.cmd`
 	
 
-9. Open a web browser and access you local instance: `http:localhost:8080`
+8. Open a web browser and access you local instance: `http:localhost:8080`
 
 	a) From the left hand-side navigation select `Special pages`
 	
@@ -84,7 +78,7 @@ Phase 1 was prepared by:  Michael Salgo, Victoria Guadagno, Okechukwu Ogudebe, J
 	c) Click on `User Gamification Profile` to confirm.
 	
 
-10. Done.
+9. Done.
 
 ## Note
 This extension was designed for MediaWiki 1.27 or later
