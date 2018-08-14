@@ -11,7 +11,8 @@ Phase 1 was prepared by:  Michael Salgo, Victoria Guadagno, Okechukwu Ogudebe, J
 
 2. Obtain the code from [GitHub](https://github.com/SWEN670NASAEVA2/NASA_EVA_Gamification)
 
-3. Copy the entire `NASA_EVA_Gamification-master` directory to the `MediaWiki/extensions/NASA_WIKI_Gamification` directory.  Pay attention that when we create the new directory inside the Mediwiki/extensions, we are dropping the “-master” part of the name. 
+3. Copy the `NASA_EVA_Gamification-master` directory to the `MediaWiki/extensions/NASA_WIKI_Gamification` directory.  Pay attention that when we create the new directory inside the Mediwiki/extensions, we are dropping the “-master” part of the name.  
+#### Note: The "Documentation" and "installation_instructions_windows_and_centos" folders are not part of the code and may be removed from the "NASA_WIKI_Gamification" extension at installation. 
 
 4. Navigate to the “MediaWiki” directory and open the `LocalSettings.php` file so you can edit it:
 
