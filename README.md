@@ -40,7 +40,7 @@ Phase 1 was prepared by:  Michael Salgo, Victoria Guadagno, Okechukwu Ogudebe, J
 
 	c) Save the file.
 	
-	### Note: $wgShowDebug = true; is for debugging purposes; so, it is recommended to have it set to “true” in a development 	environment and set to “true” in a production environment.
+	#### Note: $wgShowDebug = true; is for debugging purposes; so, it is recommended to have it set to “true” in a development 	environment and set to “false” in a production environment.
 
 5. Replace the default logo with the NasaWiki gamification logo: open 'LocalSettings.php' and search for $wgLogo.  Replace everthing after the '=' sign with the following:
 		"$wgResourceBasePath/extensions/NASA_EVA_Gamification/images/nasa-wiki-logo.png";
